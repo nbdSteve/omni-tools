@@ -1,0 +1,10 @@
+name: OmniTools
+version: 1.0-SNAPSHOT
+main: dev.nuer.ot.OmniTools
+api-version: 1.13
+author: Nuer
+commands:
+  omnitools:
+    usage: /<command>
+    description: Base command for OmniTools, use /ot h for command help.
+    aliases: [ot, otools, omnit, omni]
