@@ -8,7 +8,17 @@ import org.bukkit.Bukkit;
 import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
 
+/**
+ * Class that handles the give argument of the main command
+ */
 public class GiveCmd {
+
+    /**
+     * Gives the player the specified tool
+     *
+     * @param sender CommandSender, person sending the command
+     * @param args   String[], list of command arguments
+     */
     public static void onCmd(CommandSender sender, String[] args) {
         if (sender.hasPermission("omnitools.admin")) {
             try {
@@ -41,6 +51,10 @@ public class GiveCmd {
                 } else {
                     OmniTools.LOGGER.info("[OmniTools] Invalid command, check the GitHub wiki for command help.");
                 }
+            }
+        } else {
+            if (sender instanceof Player) {
+                MessageUtil.message((Player) sender, "no-permission");
             }
         }
     }

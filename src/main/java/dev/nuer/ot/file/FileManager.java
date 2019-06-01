@@ -4,6 +4,9 @@ import org.bukkit.configuration.file.YamlConfiguration;
 
 import java.util.HashMap;
 
+/**
+ * Class that handles loading / generating files on start up and reload
+ */
 public class FileManager {
     //HashMap of the plugin files from the resource folder
     private static HashMap<Files, YamlFile> pluginFiles;
@@ -21,7 +24,7 @@ public class FileManager {
     public static void load() {
         pluginFiles = new HashMap<>();
         pluginFiles.put(Files.CONFIG, new YamlFile("omni-tools.yml"));
-        pluginFiles.put(Files.TOOLS, new YamlFile("tool-configuration.yml"));
+        pluginFiles.put(Files.TOOLS, new YamlFile("tools-config.yml"));
     }
 
     /**

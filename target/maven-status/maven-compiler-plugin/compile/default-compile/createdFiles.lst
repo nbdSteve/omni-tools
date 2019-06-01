@@ -6,10 +6,10 @@ dev\nuer\ot\nbtapi\NBTItem.class
 dev\nuer\ot\nbtapi\NBTContainer.class
 dev\nuer\ot\event\OmniFunctionality.class
 dev\nuer\ot\file\FileManager.class
-dev\nuer\ot\event\BlockBreakByOmniTool.class
 dev\nuer\ot\utils\MessageUtil.class
 dev\nuer\ot\file\FileManager$Files.class
 dev\nuer\ot\nbtapi\ObjectCreator.class
+dev\nuer\ot\event\BlockDamageByOmniTool.class
 dev\nuer\ot\nbtapi\NBTListCompound.class
 dev\nuer\ot\utils\ItemUtil.class
 dev\nuer\ot\cmd\sub\ReloadCmd.class

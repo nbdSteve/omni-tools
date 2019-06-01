@@ -1,7 +1,7 @@
 # Omni tool configuration file
 messages:
   help:
-    - "&6&lOmniTools&e: &7Commands: &f/ot reload&7, &f/ot give <player> <tool number>&7."
+    - "&6&lOmniTools&e: &7Commands: &f/ot help&7, &f/ot reload&7, &f/ot give <player> <material : damage value> <tool number>&7."
   reload:
     - "&6&lOmniTools&e: &7You have reloaded all of the configuration files and internal maps."
   no-permission:

@@ -1,0 +1,22 @@
+1:
+  name: "&6Omni Tool &7(&eTier I&7)"
+  lore:
+    - "&7 "
+    - "&aOmni Tools are known to have special traits,"
+    - "&athey can mine any type of block easily..."
+  enchantments:
+    - durability:3
+    - dig_speed:5
+  item-flags:
+    - hide_unbreakable
+2:
+  name: "&6Omni Tool &7(&eTier II&7)"
+  lore:
+    - "&7 "
+    - "&aOmni Tools are known to have special traits,"
+    - "&athey can mine any type of block easily..."
+  enchantments:
+    - durability:3
+    - dig_speed:10
+  item-flags:
+    - hide_unbreakable

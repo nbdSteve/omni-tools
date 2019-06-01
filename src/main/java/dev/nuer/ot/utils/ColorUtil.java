@@ -2,6 +2,9 @@ package dev.nuer.ot.utils;
 
 import org.bukkit.ChatColor;
 
+/**
+ * Handles colouring messages and other strings
+ */
 public class ColorUtil {
 
     /**
