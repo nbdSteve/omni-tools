@@ -17,7 +17,7 @@ public class HelpCmd {
      */
     public static void onCmd(CommandSender sender) {
         if (sender instanceof Player) {
-            if (sender.hasPermission("tools+.help")) {
+            if (sender.hasPermission("omnitools.help")) {
                 MessageUtil.message((Player) sender, "help");
             } else {
                 MessageUtil.message((Player) sender, "no-permission");

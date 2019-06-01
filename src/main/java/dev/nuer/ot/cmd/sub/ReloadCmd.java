@@ -33,7 +33,7 @@ public class ReloadCmd {
             OmniFunctionality.clearOmniLists();
             FileManager.reload();
             OmniFunctionality.loadOmniToolBlocks();
-            OmniTools.LOGGER.info("[Tools+] Reloaded all tool maps and configuration files.");
+            OmniTools.LOGGER.info("[OmniTools] Reloaded all tool maps and configuration files.");
         }
     }
 }

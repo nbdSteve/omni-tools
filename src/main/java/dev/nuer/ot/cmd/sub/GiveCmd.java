@@ -28,7 +28,7 @@ public class GiveCmd {
                         MessageUtil.message((Player) sender, "invalid-command", "{reason}",
                                 "The player you are trying to give that tool to is not online.");
                     } else {
-                        OmniTools.LOGGER.info("[OmniTools] Invalid command, check the GitHub wiki for command help.");
+                        OmniTools.LOGGER.info("[OmniTools] Invalid command, check the in game help command for command help.");
                     }
                     return;
                 }
@@ -49,7 +49,7 @@ public class GiveCmd {
                     MessageUtil.message((Player) sender, "invalid-command", "{reason}",
                             "An error occurred. Please check your command syntax, then your configuration (stack trace console)");
                 } else {
-                    OmniTools.LOGGER.info("[OmniTools] Invalid command, check the GitHub wiki for command help.");
+                    OmniTools.LOGGER.info("[OmniTools] Invalid command, check the in game help command for command help.");
                 }
             }
         } else {

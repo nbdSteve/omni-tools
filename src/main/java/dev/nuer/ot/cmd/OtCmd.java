@@ -10,8 +10,16 @@ import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
 
+/**
+ * Class that handles the /omnitools command
+ */
 public class OtCmd implements CommandExecutor {
 
+    /**
+     * Constructor for the command
+     *
+     * @param omniTools OmniTools instance
+     */
     public OtCmd(OmniTools omniTools) {
     }
 
@@ -36,7 +44,7 @@ public class OtCmd implements CommandExecutor {
                     MessageUtil.message((Player) sender, "invalid-command", "{reason}",
                             "An error occurred. Please check your command syntax, then your configuration (stack trace console)");
                 } else {
-                    OmniTools.LOGGER.info("[OmniTools] Invalid command, check the GitHub wiki for command help.");
+                    OmniTools.LOGGER.info("[OmniTools] Invalid command, check the in game help command for command help.");
                 }
             }
         }
