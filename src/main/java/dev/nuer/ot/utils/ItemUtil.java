@@ -32,11 +32,11 @@ public class ItemUtil {
         ItemStack item = new ItemStack(Material.getMaterial(material.toUpperCase()));
         ItemMeta itemMeta = item.getItemMeta();
         if (name != null) {
-            itemMeta.setDisplayName(ColorUtil.apply(name));
+            itemMeta.setDisplayName(ColorUtil.colorize(name));
         }
         List<String> itemLore = new ArrayList<>();
         for (String line : lore) {
-            itemLore.add(ColorUtil.apply(line));
+            itemLore.add(ColorUtil.colorize(line));
         }
         itemMeta.setLore(itemLore);
         if (enchantments != null) {

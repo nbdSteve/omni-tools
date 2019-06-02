@@ -4,16 +4,12 @@
     <list default="true" id="854c29c9-3728-46e7-a972-75dd58f2cebd" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dev/nuer/ot/cmd/OtCmd.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/nuer/ot/cmd/OtCmd.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dev/nuer/ot/cmd/sub/GiveCmd.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/nuer/ot/cmd/sub/GiveCmd.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dev/nuer/ot/cmd/sub/HelpCmd.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/nuer/ot/cmd/sub/HelpCmd.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dev/nuer/ot/cmd/sub/ReloadCmd.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/nuer/ot/cmd/sub/ReloadCmd.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/OmniTools-1.0.3-shaded.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/OmniTools-1.0.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/dev/nuer/ot/cmd/sub/GiveCmd.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dev/nuer/ot/cmd/sub/GiveCmd.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/dev/nuer/ot/cmd/sub/HelpCmd.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dev/nuer/ot/cmd/sub/HelpCmd.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/dev/nuer/ot/cmd/sub/ReloadCmd.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dev/nuer/ot/cmd/sub/ReloadCmd.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/original-OmniTools-1.0.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/nuer/ot/utils/ColorUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/nuer/ot/utils/ColorUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/nuer/ot/utils/ItemUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/nuer/ot/utils/ItemUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/nuer/ot/utils/MessageUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/nuer/ot/utils/MessageUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/OmniTools-1.0.4-shaded.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/OmniTools-1.0.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/original-OmniTools-1.0.4.jar" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -24,16 +20,48 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="DefaultGradleProjectSettings">
-    <option name="testRunner" value="GRADLE" />
-    <option name="delegatedBuild" value="true" />
+    <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="12" selection-start-line="12" selection-end-line="12" />
+            <state relative-caret-position="159">
+              <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/dev/nuer/ot/utils/ColorUtil.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="288">
+              <caret line="12" column="39" selection-start-line="12" selection-start-column="39" selection-end-line="12" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/dev/nuer/ot/utils/ItemUtil.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="600">
+              <caret line="31" column="82" selection-start-line="31" selection-start-column="82" selection-end-line="31" selection-end-column="82" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/dev/nuer/ot/OmniTools.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="115">
+              <caret line="16" column="19" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -93,14 +121,14 @@
         <option value="$PROJECT_DIR$/src/main/java/dev/nuer/ot/OmniTools.java" />
         <option value="$PROJECT_DIR$/src/main/java/dev/nuer/ot/event/BlockDamageByOmniTool.java" />
         <option value="$PROJECT_DIR$/src/main/resources/tools-config.yml" />
-        <option value="$PROJECT_DIR$/src/main/java/dev/nuer/ot/utils/ColorUtil.java" />
         <option value="$PROJECT_DIR$/src/main/resources/omni-tools.yml" />
         <option value="$PROJECT_DIR$/src/main/java/dev/nuer/ot/utils/ItemUtil.java" />
         <option value="$PROJECT_DIR$/src/main/java/dev/nuer/ot/cmd/sub/ReloadCmd.java" />
         <option value="$PROJECT_DIR$/src/main/java/dev/nuer/ot/cmd/sub/GiveCmd.java" />
         <option value="$PROJECT_DIR$/src/main/java/dev/nuer/ot/cmd/sub/HelpCmd.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/dev/nuer/ot/cmd/OtCmd.java" />
+        <option value="$PROJECT_DIR$/src/main/java/dev/nuer/ot/utils/ColorUtil.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -130,10 +158,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-2161" />
-    <option name="y" value="-9" />
-    <option name="width" value="1936" />
-    <option name="height" value="1096" />
+    <option name="x" value="240" />
+    <option name="y" value="128" />
+    <option name="width" value="1440" />
+    <option name="height" value="773" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -194,7 +222,7 @@
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/dev/nuer/ot" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -255,10 +283,9 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1928" y="-8" width="1936" height="1096" extended-state="6" />
-    <editor active="true" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16257995" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16442953" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -266,8 +293,8 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32977587" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32941177" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32941177" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -279,7 +306,7 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info active="true" anchor="right" id="Maven" order="4" visible="true" weight="0.1652452" />
+      <window_info active="true" anchor="right" id="Maven" order="4" visible="true" weight="0.16510066" />
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
@@ -376,39 +403,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dev/nuer/ot/OmniTools.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="16" column="19" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#735#736#0" expanded="true" />
-            <element signature="e#785#786#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/tools-config.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
           <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dev/nuer/ot/utils/ColorUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="5" column="47" selection-start-line="5" selection-start-column="47" selection-end-line="5" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dev/nuer/ot/utils/ItemUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="31" column="82" selection-start-line="31" selection-start-column="82" selection-end-line="31" selection-end-column="82" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -479,10 +477,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dev/nuer/ot/utils/ColorUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="12" column="39" selection-start-line="12" selection-start-column="39" selection-end-line="12" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dev/nuer/ot/utils/ItemUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="31" column="82" selection-start-line="31" selection-start-column="82" selection-end-line="31" selection-end-column="82" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dev/nuer/ot/OmniTools.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="16" column="19" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        <state relative-caret-position="159">
+          <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
         </state>
       </provider>
     </entry>

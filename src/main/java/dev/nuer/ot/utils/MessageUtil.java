@@ -16,7 +16,7 @@ public class MessageUtil {
      */
     public static void message(Player player, String path) {
         for (String line : FileManager.get("config").getStringList("messages." + path)) {
-            player.sendMessage(ColorUtil.apply(line));
+            player.sendMessage(ColorUtil.colorize(line));
         }
     }
 
@@ -30,7 +30,7 @@ public class MessageUtil {
      */
     public static void message(Player player, String path, String placeholder, String replacement) {
         for (String line : FileManager.get("config").getStringList("messages." + path)) {
-            player.sendMessage(ColorUtil.apply(line).replace(placeholder, replacement));
+            player.sendMessage(ColorUtil.colorize(line).replace(placeholder, replacement));
         }
     }
 }

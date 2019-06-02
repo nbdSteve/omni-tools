@@ -13,7 +13,7 @@ public class ColorUtil {
      * @param message String, the message to colorize
      * @return String
      */
-    public static String apply(String message) {
+    public static String colorize(String message) {
         return ChatColor.translateAlternateColorCodes('&', message);
     }
 }
