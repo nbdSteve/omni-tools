@@ -26,7 +26,7 @@ public class GiveCmd {
                 if (!Bukkit.getOnlinePlayers().contains(target)) {
                     if (sender instanceof Player) {
                         MessageUtil.message((Player) sender, "invalid-command", "{reason}",
-                                "The player you are trying to give that tool to is not online.");
+                                "The player you are trying to give that tool to is not online");
                     } else {
                         OmniTools.LOGGER.info("[OmniTools] Invalid command, check the in game help command for command help.");
                     }
@@ -40,12 +40,11 @@ public class GiveCmd {
                         target);
                 if (sender instanceof Player) {
                     MessageUtil.message((Player) sender, "give", "{player}", target.getName());
-                } else {
-                    OmniTools.LOGGER.info("[OmniTools] You have given an OmniTool to " + target.getName() + ".");
                 }
+                OmniTools.LOGGER.info("[OmniTools] Success! " + target.getName() + " has received an OmniTool. The tool was given to them by: " + sender.getName());
             } catch (Exception e) {
+                e.printStackTrace();
                 if (sender instanceof Player) {
-                    e.printStackTrace();
                     MessageUtil.message((Player) sender, "invalid-command", "{reason}",
                             "An error occurred. Please check your command syntax, then your configuration (stack trace console)");
                 } else {
